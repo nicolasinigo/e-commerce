@@ -1,0 +1,8 @@
+.imagenDelProducto{
+    width: 400px;
+    height: 400px;
+};
+
+#iconoCarrito{
+    object-fit: cover;
+}
