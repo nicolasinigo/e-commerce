@@ -18,25 +18,41 @@
                 <h1 class="navbar-brand">tienda online</h1>
             </div>
             <div class="p-2 bd-highlight">
-                <button class=" navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            <div class="p-2 bd-highlight">
-                <div class=" collapse navbar-collapse" id="navbarSupportedContent">
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
             </div>
         </div>
     </nav>
     <div class="container d-flex justify-content-end">
-        <img id="iconoCarrito" class=" row" width="60px" src="./imagenes/icons8-centro-comercial-100.png" alt="">
+        <div class="container-icon">
+            <img id="iconoCarrito" class="row" src="./imagenes/icons8-centro-comercial-100.png" alt="">
+            <div>
+                <div class="count-products">
+                    <span class="contador-productos">0</span>
+                </div>
+                <div class="container-cart-products hidden-cart">
+                    <div class="cart-product">
+                        <div class="info-cart-product">
+                            <span class="cantidad-producto-carrito">1</span>
+                            <p class="titulo-producto-carrito">zapatos nike</p>
+                            <span class="precio-producto-carrito">80</span>
+                            <button type="button" class="btn-close" aria-label="Close"></button>
+                        </div>
+                        <div>
+                           
+                            <div class="cart-total">
+                                <h5>total:</h5>
+                                <span class="total-pagar">$200</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
     <br>
     <div class="container">
         <div class="d-flex align-content-around flex-wrap">
@@ -48,8 +64,10 @@
                         <h5 class="card-title">Zapatilla 1</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <p class="card-text">Precio:</p>
-                        <a href="#" class="btn btn-primary">añadir al Carrito</a>
+                        <div class="d-grid gap-2">
+                            <p class="card-text">Precio:</p>
+                            <a href="#" class="btn btn-primary">añadir al Carrito</a>
+                        </div>
                     </div>
                 </div>
 
@@ -62,8 +80,10 @@
                         <h5 class="card-title">Zapatilla 2</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <p class="card-text">Precio:</p>
-                        <a href="#" class="btn btn-primary">añadir al Carrito</a>
+                        <div class="d-grid gap-2">
+                            <p class="card-text">Precio:</p>
+                            <a href="#" class="btn btn-primary">añadir al Carrito</a>
+                        </div>
                     </div>
                 </div>
 
@@ -76,8 +96,10 @@
                         <h5 class="card-title">Zapatilla 3</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <p class="card-text">Precio:</p>
-                        <a href="#" class="btn btn-primary">añadir al Carrito</a>
+                        <div class="d-grid gap-2">
+                            <p class="card-text">Precio:</p>
+                            <a href="#" class="btn btn-primary">añadir al Carrito</a>
+                        </div>
                     </div>
                 </div>
 
@@ -90,8 +112,10 @@
                         <h5 class="card-title">Zapatilla 4</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <p class="card-text">Precio:</p>
-                        <a href="#" class="btn btn-primary">añadir al Carrito</a>
+                        <div class="d-grid gap-2">
+                            <p class="card-text">Precio:</p>
+                            <a href="#" class="btn btn-primary">añadir al Carrito</a>
+                        </div>
                     </div>
                 </div>
 
@@ -104,8 +128,10 @@
                         <h5 class="card-title">Zapatilla 5</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <p class="card-text">Precio:</p>
-                        <a href="#" class="btn btn-primary">añadir al Carrito</a>
+                        <div class="d-grid gap-2">
+                            <p class="card-text">Precio:</p>
+                            <a href="#" class="btn btn-primary">añadir al Carrito</a>
+                        </div>
                     </div>
                 </div>
 
@@ -118,8 +144,10 @@
                         <h5 class="card-title">Zapatilla 6</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <p class="card-text">Precio:</p>
-                        <a href="#" class="btn btn-primary">añadir al Carrito</a>
+                        <div class="d-grid gap-2">
+                            <p class="card-text">Precio:</p>
+                            <a href="#" class="btn btn-primary">añadir al Carrito</a>
+                        </div>
                     </div>
                 </div>
 
@@ -132,8 +160,10 @@
                         <h5 class="card-title">Zapatilla 7</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <p class="card-text">Precio:</p>
-                        <a href="#" class="btn btn-primary">añadir al Carrito</a>
+                        <div class="d-grid gap-2">
+                            <p class="card-text">Precio:</p>
+                            <a href="#" class="btn btn-primary">añadir al Carrito</a>
+                        </div>
                     </div>
                 </div>
 
@@ -146,14 +176,17 @@
                         <h5 class="card-title">Zapatilla 8</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <p class="card-text">Precio:</p>
-                        <a href="#" class="btn btn-primary">añadir al Carrito</a>
+                        <div class="d-grid gap-2">
+                            <p class="card-text">Precio:</p>
+                            <a href="#" class="btn btn-primary">añadir al Carrito</a>
+                        </div>
                     </div>
                 </div>
 
             </div>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 
 </html>

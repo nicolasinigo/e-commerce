@@ -3,6 +3,49 @@
     height: 400px;
 };
 
+.items:hover img{
+    transform: scale(1.2) ;
+}
+
 #iconoCarrito{
     object-fit: cover;
 }
+
+.container-icon{
+    position: relative;
+}
+
+.count-products{
+    position: absolute;
+    top: 55%;
+    right: 0;
+    background-color: black;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% ;
+}
+
+.cart-product{
+    padding: 30px;
+}
+
+.info-cart-product{
+    display: flex;
+    justify-content:space-between;
+}
+
+.container-cart-products{
+    position: absolute;
+    top: 50px;
+    right: 0;
+
+    background-color: #fff;
+    width: 400px;
+    z-index: 1;
+
+}
+
